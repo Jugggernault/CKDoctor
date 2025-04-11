@@ -69,7 +69,6 @@ def predict(request: PredictionRequest):
     else:
         raise HTTPException(status_code=400, detail="Valeur invalide pour Sexe")
 
-    # Build the feature list
     features = [
         request.age,
         sexe_num,
