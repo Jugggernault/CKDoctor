@@ -1,0 +1,13 @@
+[project]
+name = "ckdbackend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "imblearn>=0.0",
+    "joblib>=1.4.2",
+    "numpy>=2.2.4",
+    "uvicorn>=0.34.0",
+]
